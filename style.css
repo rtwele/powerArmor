@@ -1,0 +1,45 @@
+ol li {
+    list-style-type:none;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    text-decoration: underline;
+}
+body {
+    background-color: #09d364;
+
+}
+
+.bg-img{
+    background-image: url('https://usercontent.one/wp/www.parallaxmedia.one/wp-content/uploads/2018/11/Fallout-Banner.jpg');
+    background-repeat: no-repeat no-repeat;
+    min-height:300px;
+    width: 100%;
+    list-style-type: none;
+    background-size: cover;
+
+}
+#imageGallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+}
+.power-armor-img {
+    width: 33%;
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: gray;
+}
+#video {
+    text-align: center;
+    margin-top: 30px;
+}
